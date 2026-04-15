@@ -30,6 +30,14 @@ sudo tlmgr update --self
 sudo tlmgr install lualatex-math
 ```
 
+### 3. Set Up Your Directory Structure
+
+Create the suggested layout for organizing your documents:
+
+```bash
+mkdir -p invoices/2026 quotes/2026 templates
+```
+
 ## Usage
 
 ### Create an Invoice
@@ -50,13 +58,15 @@ Same process as invoices - create a Markdown file with your quote details and co
 
 ## Project Structure
 
+The suggested layout for organizing your documents (create these directories yourself — see Quick Start step 3):
+
 ```
-diy-admin/
+freelance-admin/
 ├── examples/
-│   └── invoice-example.md
+│   └── invoice-example.md      # Starter example
 ├── invoices/
 │   └── 2026/
-│       └── INV-2026-001.md
+│       └── IMZ-2026-0001.md
 ├── quotes/
 │   └── 2026/
 │       └── QT-2026-0001.md
@@ -129,6 +139,7 @@ fc-list | grep -v '^\s*\.' | awk -F: '{print $2}' | sort -u
 
 ## Resources
 
+- [Pandoc + LuaLaTeX Guide](pandoc-pdf-guide.md) — detailed walkthrough of the PDF conversion pipeline
 - [Pandoc Documentation](https://pandoc.org/documentation.html)
 - [BasicTeX Overview](https://www.tug.org/mactex/morepackages.html)
 
