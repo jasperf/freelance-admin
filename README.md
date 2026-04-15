@@ -140,7 +140,7 @@ fc-list | grep -v '^\s*\.' | awk -F: '{print $2}' | sort -u
 ## Resources
 
 - [Pandoc + LuaLaTeX Guide](pandoc-pdf-guide.md) — detailed walkthrough of the PDF conversion pipeline
-- [Pandoc Documentation](https://pandoc.org/documentation.html)
+- [Pandoc Documentation](https://pandoc.org/MANUAL.html)
 - [BasicTeX Overview](https://www.tug.org/mactex/morepackages.html)
 
 ## License
