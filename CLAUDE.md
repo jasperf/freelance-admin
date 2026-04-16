@@ -40,6 +40,11 @@ examples/invoice-example.md
 - Use `$HOME` instead of `~` in paths; wrap paths containing spaces in double quotes.
 - Font `Arial Unicode MS` is required for full Unicode coverage and is available by default on macOS.
 
+## Git Conventions
+
+- Use atomic commits: one logical change per commit.
+- Do not include `Co-Authored-By: Claude` or any AI attribution in commit messages.
+
 ## Troubleshooting
 
 | Error | Fix |
